@@ -15,7 +15,7 @@ Cette logique doit :
 
 L'objectif est d'estimer votre capacité à résoudre un problème métier en utilisant le langage Swift et le framework iOS. L'application doit fonctionner sur téléphone et simulateur. 
 
-Durant l'entretien de debriefing nous reviendrons sur vos choix techniques. Une attention particulière sera apportée à l'organisation du code. Vous devez penser au support à long terme de votre application. 
+Durant l'entretien de debriefing nous reviendrons sur vos choix techniques. 
 
 ### Version checker - Vérification de la configuration
 
