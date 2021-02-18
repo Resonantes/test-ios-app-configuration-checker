@@ -43,9 +43,9 @@ La réponse obtenue est de la forme :
 }
 ```
 
-`lastVersion` : correspond au numéro de build de la version la plus récente en production.
-`minVersion` : correspond au numéro de build de la version la plus ancienne autorisée à être exécutée.
-`url` : correspond à l'URL du store permettant de mettre à jour l'application. Attention l'URL renvoyée ici est l'URL correspondant à la page App Store de l'application App-Elles. Cette page ne permet donc pas de mettre à jour l'application de test (ce n'est pas le but de l'exercice).
+  * `lastVersion` : correspond au numéro de build de la version la plus récente en production.
+  * `minVersion` : correspond au numéro de build de la version la plus ancienne autorisée à être exécutée.
+  * `url` : correspond à l'URL du store permettant de mettre à jour l'application. Attention l'URL renvoyée ici est l'URL correspondant à la page App Store de l'application App-Elles. Cette page ne permet donc pas de mettre à jour l'application de test (ce n'est pas le but de l'exercice).
 
 La première partie de l'exercice consiste à récupérer ces informations de configuration, de déterminer si l'application exécutée est à jour et de l'indiquer à l'utilisateur.
 
