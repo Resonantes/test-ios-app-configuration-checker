@@ -1,13 +1,15 @@
 //
-//  WelcomeViewController.swift
+//  StartupViewController.swift
 //  iOS Test App Checker
+//
+//  Handles the startup logic and navigates automatically to the next activity
 //
 //  Created by Robin Caroff on 16/02/2021.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class StartupViewController: UIViewController {
     
     private let session: Session = SessionWithUser()
     // Switch between the two Session object to test your logic

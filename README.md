@@ -6,12 +6,12 @@ iOS exercice
 
 ## But de l'exercice
 
-Le but de l'exercice est d'implémenter la logique du premier écran de l'application, l'écran `Welcome`.
+Le but de l'exercice est d'implémenter la logique du premier écran de l'application, l'écran `Startup`.
 
 Cette logique doit :
 
   1. Récupérer des informations de configuration de l'application depuis un web service et vérifier si une mise à jour de l'application est nécessaire
-  2. Rediriger l'utilisateur vers l'écran de login ou vers la Home de l'application en fonction de l'existence ou non d'une session utilisateur
+  2. Rediriger automatiquement l'utilisateur vers l'écran de login ou vers la Home de l'application en fonction de l'existence ou non d'une session utilisateur
 
 L'objectif est d'estimer votre capacité à résoudre un problème métier en utilisant le langage Swift et le framework iOS. L'application doit fonctionner sur téléphone et simulateur. 
 
@@ -55,7 +55,7 @@ La première partie de l'exercice consiste à récupérer ces informations de co
 
 ### Redirection vers les pages Login ou Home
 
-Si l'application est à jour, l'exécution se poursuit pour déterminer si l'utilisateur doit être redirigé vers la page de `Login` ou vers la page `Home`. Pour cela il convient d'interroger l'objet `Session` afin de déterminer si un utilisateur est déjà connecté ou non.
+Si l'application est à jour, l'exécution se poursuit pour déterminer si l'utilisateur doit être redirigé automatiquement vers la page de `Login` ou vers la page `Home`. Pour cela il convient d'interroger l'objet `Session` afin de déterminer si un utilisateur est déjà connecté ou non.
 
 Pour tester votre implémentation, les classe `SessionWithUser` et `SessionWithoutUser` sont fournies.
 

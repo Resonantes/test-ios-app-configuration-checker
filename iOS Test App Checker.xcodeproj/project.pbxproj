@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00F69A0B25DBD2DD005A2879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A0A25DBD2DD005A2879 /* AppDelegate.swift */; };
 		00F69A0D25DBD2DD005A2879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A0C25DBD2DD005A2879 /* SceneDelegate.swift */; };
-		00F69A0F25DBD2DD005A2879 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A0E25DBD2DD005A2879 /* WelcomeViewController.swift */; };
+		00F69A0F25DBD2DD005A2879 /* StatupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A0E25DBD2DD005A2879 /* StatupViewController.swift */; };
 		00F69A1225DBD2DD005A2879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A1025DBD2DD005A2879 /* Main.storyboard */; };
 		00F69A1425DBD2DE005A2879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A1325DBD2DE005A2879 /* Assets.xcassets */; };
 		00F69A1725DBD2DE005A2879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A1525DBD2DE005A2879 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		00F69A0725DBD2DD005A2879 /* iOS Test App Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Test App Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F69A0A25DBD2DD005A2879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00F69A0C25DBD2DD005A2879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00F69A0E25DBD2DD005A2879 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		00F69A0E25DBD2DD005A2879 /* StatupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatupViewController.swift; sourceTree = "<group>"; };
 		00F69A1125DBD2DD005A2879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00F69A1325DBD2DE005A2879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00F69A1625DBD2DE005A2879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 				00F69A2A25DBD5AF005A2879 /* Storage */,
 				00F69A0A25DBD2DD005A2879 /* AppDelegate.swift */,
 				00F69A0C25DBD2DD005A2879 /* SceneDelegate.swift */,
-				00F69A0E25DBD2DD005A2879 /* WelcomeViewController.swift */,
+				00F69A0E25DBD2DD005A2879 /* StatupViewController.swift */,
 				00F69A1025DBD2DD005A2879 /* Main.storyboard */,
 				00F69A1325DBD2DE005A2879 /* Assets.xcassets */,
 				00F69A1525DBD2DE005A2879 /* LaunchScreen.storyboard */,
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F69A2125DBD442005A2879 /* Session.swift in Sources */,
-				00F69A0F25DBD2DD005A2879 /* WelcomeViewController.swift in Sources */,
+				00F69A0F25DBD2DD005A2879 /* StatupViewController.swift in Sources */,
 				00F69A0B25DBD2DD005A2879 /* AppDelegate.swift in Sources */,
 				00F69A2425DBD485005A2879 /* User.swift in Sources */,
 				00F69A0D25DBD2DD005A2879 /* SceneDelegate.swift in Sources */,
